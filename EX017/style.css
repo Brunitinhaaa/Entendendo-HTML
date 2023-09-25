@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanken+Grotesk:ital,wght@1,200&display=swap');
+
+p {
+    text-align: justify;
+}
+
+main {
+    background-color: white;
+    width: 1800px;
+    padding: 10px;
+    margin:auto;
+    border-radius:40px;
+    box-shadow: 5px 5px 5px rgba(60, 60, 60, 0.18);
+    font-family: 'Hanken Grotesk';
+}
+
+body {
+    background-image: linear-gradient(to right, #ffac81, #ff928b, #fec3a6, #efe9ae, #cdeac0 );
+}
+
+h1 {
+    font-family: 'Dancing Script';
+    font-size: 90px;
+    color: #ff928b;
+    text-align: center;
+    text-shadow: #807364;
+}
+
+h2 {
+    font-family: 'Dancing Script';
+    color: #ffac81;
+}
+

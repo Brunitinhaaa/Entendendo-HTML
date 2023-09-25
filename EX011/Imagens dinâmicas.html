@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Img dinâmica</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>essa imagem pode ser aberta em diferentes dispositivos ou apenas alterando o zoom do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.jpg" type="imag/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.jpg" type="image/jpg">
+        <img src="imagens/img-g.jpg" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p> reproduzindo audios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="musica/happy-mistake.mp3">
+    </audio>
+    <!-- maioria dos navegadores são compatíveis com MP3 WAV OGG-->
+</body>
+</html>dddd
